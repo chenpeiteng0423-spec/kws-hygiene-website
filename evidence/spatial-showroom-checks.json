@@ -38,5 +38,18 @@
   "limitations": [
     "Illustrative animation is not a physical scent simulation or coverage calculator",
     "No claim of full WCAG conformance; automated accessibility suite and screen-reader testing were not run"
-  ]
+  ],
+  "deployment": {
+    "customer_url": "https://kws-hygiene-preview.pages.dev/",
+    "immutable_url": "https://273d6652.kws-hygiene-preview.pages.dev",
+    "source_commit": "c44adc6805ee9eaf93dd2a50149c33ca1965f088",
+    "verified_at_utc": "2026-10-05T20:46:10.554913+00:00",
+    "live_checks": [
+      "1440px washroom scene, paper point, extended schedule and motion state",
+      "390px Applications office scene, zero visible broken images, no overflow",
+      "Published JavaScript matches locally verified source byte for byte"
+    ],
+    "live_contact_note": "Contact navigation reached; first form read occurred before deferred initialization. Complete scene-to-draft flow verified locally; published JS matches.",
+    "site_js_sha256": "360f3150f9e8707612432e02df4aab9a288f3d1406cbfcf772509fba45927a13"
+  }
 }
