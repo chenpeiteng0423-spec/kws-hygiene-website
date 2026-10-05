@@ -1,0 +1,44 @@
+{
+  "verified_at_utc": "2026-10-05T20:19:22.738439+00:00",
+  "source_commit": "6c909d9",
+  "customer_url": "https://kws-hygiene-preview.pages.dev/",
+  "deployment_url": "https://9a2ef857.kws-hygiene-preview.pages.dev",
+  "repository": "https://github.com/chenpeiteng0423-spec/kws-hygiene-website",
+  "main_pages": 390,
+  "prepared_html_documents": 784,
+  "products": 321,
+  "news_cards": 9,
+  "added_editorial_guides": 8,
+  "static_check_failures": [],
+  "local_mobile_widths": [
+    320,
+    390
+  ],
+  "live_mobile_width": 390,
+  "checked_routes": [
+    "/",
+    "/about/",
+    "/manufacturing/",
+    "/news/",
+    "/news/oem-odm-project-brief/"
+  ],
+  "horizontal_overflow": false,
+  "visible_broken_images": 0,
+  "browser_checks": [
+    "Carousel manual navigation and six-second automatic advance",
+    "Pause control and reduced-motion initial pause",
+    "Three local homepage previews autoplay muted inline",
+    "Live viewport-visible preview playback",
+    "Original workplace image zoom at 680px",
+    "Full video resource manual playback with no media error"
+  ],
+  "visual_review": [
+    "1440px homepage",
+    "1440px service illustrated rows",
+    "1440px manufacturing",
+    "390px news cards"
+  ],
+  "generated_images": "Built-in image tool: three labeled concept illustrations",
+  "workplace_photographs": "Original 680px sources converted losslessly; AI portrait/document restoration excluded",
+  "heuristic_audit": "Reviewed warnings: existing notice/font and dynamic dialog/template image false positives. No new placeholder image shipped."
+}
