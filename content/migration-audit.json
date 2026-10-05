@@ -1,0 +1,51 @@
+{
+  "products": 321,
+  "errors": [
+    {
+      "url": "https://www.scentairmachines.com/photo/scentairmachines/editor/20201218181636_31041.jpg",
+      "error": "curl: (28) Operation timed out after 18006 milliseconds with 0 bytes received\ncurl: (28) Operation timed out after 18001 milliseconds with 0 bytes received\n"
+    },
+    {
+      "url": "https://www.scentairmachines.com/photo/scentairmachines/editor/20210630110601_73598.jpg",
+      "error": "curl: (28) Operation timed out after 18005 milliseconds with 0 bytes received\ncurl: (28) Operation timed out after 18004 milliseconds with 0 bytes received\n"
+    },
+    {
+      "url": "https://www.scentairmachines.com/photo/scentairmachines/editor/20220429152215_82343.png",
+      "error": "curl: (28) Operation timed out after 18005 milliseconds with 0 bytes received\ncurl: (28) Operation timed out after 18001 milliseconds with 0 bytes received\n"
+    },
+    {
+      "url": "https://www.scentairmachines.com/photo/scentairmachines/video/20210902_613073b4bd78d.mp4_d.jpg?1667551265",
+      "error": "curl: (56) The requested URL returned error: 404\n"
+    },
+    {
+      "url": "https://www.scentairmachines.com/photo/scentairmachines/editor/20230328165402_68148.jpg",
+      "error": "curl: (28) Operation timed out after 18003 milliseconds with 0 bytes received\ncurl: (28) Operation timed out after 18006 milliseconds with 0 bytes received\n"
+    },
+    {
+      "url": "https://www.scentairmachines.com/photo/scentairmachines/video/20210902_613075cf71375.mp4_d.jpg?1667656169",
+      "error": "curl: (56) The requested URL returned error: 404\n"
+    },
+    {
+      "url": "https://www.scentairmachines.com/photo/scentairmachines/editor/20230420145416_30337.png",
+      "error": "curl: (28) Operation timed out after 18003 milliseconds with 0 bytes received\ncurl: (28) Operation timed out after 18005 milliseconds with 0 bytes received\n"
+    },
+    {
+      "url": "https://www.scentairmachines.com/photo/scentairmachines/video/20210902_61306e12c0fc8.mp4_d.jpg?1630564598",
+      "error": "curl: (28) Operation timed out after 18005 milliseconds with 0 bytes received\ncurl: (28) Operation timed out after 18006 milliseconds with 0 bytes received\n"
+    },
+    {
+      "url": "https://www.scentairmachines.com/test/scentairmachines.com/photo/pl34366573-remark.jpg",
+      "error": "curl: (28) Operation timed out after 18003 milliseconds with 0 bytes received\ncurl: (28) Operation timed out after 18006 milliseconds with 0 bytes received\n"
+    }
+  ],
+  "normalizations": [
+    {
+      "field": "Product Size",
+      "before": "245*167*44mm245*167*44mm",
+      "after": "245*167*44mm",
+      "fix": "exact duplicated value"
+    }
+  ],
+  "media": 616,
+  "videos": 31
+}

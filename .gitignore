@@ -1,0 +1,6 @@
+__pycache__/
+.DS_Store
+research/**/*.part
+_site/
+research/media/
+research/video/

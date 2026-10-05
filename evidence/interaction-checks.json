@@ -1,0 +1,35 @@
+{
+  "catalog": {
+    "records": 321,
+    "pageSize": 18,
+    "modelSearch": "KWS-500",
+    "emptyState": true,
+    "sortAndPagination": true
+  },
+  "gallery": {
+    "images": 9,
+    "selection": true,
+    "zoomAndEscape": true,
+    "focusRestored": true
+  },
+  "inquiry": {
+    "validation": true,
+    "productPrefill": true,
+    "emailDraft": true,
+    "whatsappDraft": true,
+    "noMessagesSent": true
+  },
+  "mobileMenu": {
+    "open": true,
+    "escape": true
+  },
+  "video": {
+    "nativePlayback": true,
+    "hls": {
+      "mse": true,
+      "time": 1.076118,
+      "duration": 81
+    }
+  },
+  "automatedAccessibilityScan": false
+}

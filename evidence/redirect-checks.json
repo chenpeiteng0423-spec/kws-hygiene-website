@@ -1,0 +1,17 @@
+[
+  {
+    "old": "/quality-13547575-50w-hvac-essential-oil-diffuser",
+    "new": "/products/p-13547575/",
+    "status": 301
+  },
+  {
+    "old": "/supplier-429365-scent-air-machines",
+    "new": "/categories/scent-air-machines/",
+    "status": 301
+  },
+  {
+    "old": "/aboutus.html",
+    "new": "/about/",
+    "status": 301
+  }
+]

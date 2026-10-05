@@ -1,0 +1,37 @@
+name: Publish customer preview
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: pip install beautifulsoup4==4.14.3
+      - name: Configure Pages
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Prepare and verify project paths
+        env:
+          PAGE_URL: ${{ steps.pages.outputs.base_url }}
+        run: python scripts/prepare_pages.py --url "$PAGE_URL"
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+      - name: Publish
+        id: deploy
+        uses: actions/deploy-pages@v4
