@@ -37,3 +37,13 @@ About service content uses alternating text and generated concept illustrations.
 Manufacturing adds six production discussion stages, original factory photography, OEM / ODM briefing and model-specific quality documentation guidance. News uses nine responsive cards: the original company archive story plus eight clearly labeled editorial guides. New articles make no invented claims about company events, certification, customers or measured results.
 
 Generated visual provenance and accepted prompts are recorded in content/visual-assets.json and content/image-prompts.json. Only three concept illustrations are accepted; experimental portrait/document restoration is excluded because it changed fine details. Image generation used the built-in image tool.
+
+## Premium spatial direction — 2026-10-06
+
+Visual thesis: a quiet hospitality showroom, with warm architectural photography, ivory editorial typography and deep forest chapters. Preserve KWS branding and all real product/catalog content. Primary audience: overseas buyers comparing fragrance and hygiene equipment; primary action: explore products and prepare an inquiry.
+
+Content plan: cinematic three-slide collection hero; two product-family compositions; an interactive spatial showroom; real selected products; manufacturing story; demonstrations; inquiry. Applications repeats the complete spatial showroom before the existing category guidance. Other pages share refined section titles, spacing, image treatment and conversion sections, without changing product data.
+
+Interaction thesis: restrained hero image transitions; photographic scene switches with selectable equipment points; a pausable illustrative operation pulse. Three scene modes use clearly labeled concept imagery. The demonstration visualizes a discussion, not physical diffusion, coverage, concentration, efficacy or engineering sizing. Scheduling preference changes the briefing advice and is carried to the contact form, which continues to generate drafts only.
+
+Acceptance: real product links per point, scene selection and keyboard operation, pause/reduced motion, selected scene/schedule reflected in contact drafts, no failed visible images, no horizontal overflow at 1440/768/390/320, and previously delivered carousel/video features preserved. Implement with existing Python generator and plain CSS/JS; no CMS or React migration.

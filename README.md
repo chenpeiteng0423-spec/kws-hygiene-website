@@ -92,3 +92,7 @@ This command verifies the site, prepares root-hosted URLs and uploads only `_clo
 ### October 6 interface update
 
 390 main pages now include eight new editorial guides in addition to the original team story. Homepage carousel and viewport-aware muted previews, richer manufacturing content, alternating service illustrations and lossless workplace gallery are included. Generated concepts are labeled on the pages; real factory/team pictures retain their original identities and resolution. See `content/image-prompts.json` and `content/visual-assets.json` for visual provenance.
+
+### Spatial showroom and premium presentation
+
+Homepage and Applications include a three-setting concept showroom (hotel lobby, workplace reception and shared washroom). Select equipment points, choose business/extended hours, and use a pausable operation illustration. The inquiry link carries the selected equipment and a scene brief into the existing draft form. This is not a coverage calculator, certified installation design or evidence of real customer projects. Reduced motion disables the illustrative pulse; links and a default scene remain usable without JavaScript. Office and washroom concepts are locally stored WebP images generated with the built-in image tool; prompts/provenance are recorded alongside the original three concepts.

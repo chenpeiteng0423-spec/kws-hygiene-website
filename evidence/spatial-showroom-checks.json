@@ -1,0 +1,42 @@
+{
+  "checked_at_utc": "2026-10-05T20:43:08.808516+00:00",
+  "scope": "Premium KWS presentation and interactive spatial showroom",
+  "routes": [
+    "/",
+    "/applications/",
+    "/about/",
+    "/manufacturing/",
+    "/products/p-13834816/",
+    "/news/",
+    "/contact/"
+  ],
+  "viewport_widths": [
+    1440,
+    768,
+    390,
+    320
+  ],
+  "reflow": "No document horizontal overflow on tested routes",
+  "mobile_hero_bottom_css_px": 742.578125,
+  "mobile_viewport_height": 844,
+  "interaction_checks": [
+    "Scene selection and two equipment points per setting",
+    "Real product links",
+    "Business and extended hours guidance",
+    "Selected scene/product/schedule carried into inquiry textarea",
+    "Inquiry draft generation without sending",
+    "Keyboard Enter/Space point activation",
+    "Demonstration start and pause",
+    "Reduced motion disables pulse control",
+    "Carousel scene/photo and product selection preserved",
+    "Viewport-muted video preview preserved"
+  ],
+  "assets": "Two additional built-in generated concept scenes; local WebP; prompts and provenance recorded",
+  "build": "390 main pages and 784 prepared HTML documents, zero broken local targets",
+  "previous_release": "797935c",
+  "previous_deployment_url": "https://9a2ef857.kws-hygiene-preview.pages.dev",
+  "limitations": [
+    "Illustrative animation is not a physical scent simulation or coverage calculator",
+    "No claim of full WCAG conformance; automated accessibility suite and screen-reader testing were not run"
+  ]
+}

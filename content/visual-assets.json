@@ -52,5 +52,17 @@
     "width": 680,
     "height": 510,
     "provenance": "Original KWS archival photograph, lossless conversion; no invented details"
+  },
+  "office-scene": {
+    "src": "/assets/editorial/office-scene.webp",
+    "width": 1536,
+    "height": 1024,
+    "provenance": "AI-generated spatial concept; not a real customer installation or exact product rendering"
+  },
+  "washroom-scene": {
+    "src": "/assets/editorial/washroom-scene.webp",
+    "width": 1536,
+    "height": 1024,
+    "provenance": "AI-generated spatial concept; not a real customer installation or exact product rendering"
   }
 }
