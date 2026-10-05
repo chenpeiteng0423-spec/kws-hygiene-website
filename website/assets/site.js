@@ -55,3 +55,13 @@ if(form){
  });
  $('#copy-draft')?.addEventListener('click',async()=>{const draft=$('#draft-text');try{await navigator.clipboard.writeText(draft.value);$('#copy-feedback').textContent='Draft copied. Paste it into your preferred email app.'}catch{draft.focus();draft.select();$('#copy-feedback').textContent='Select and copy the draft, then paste it into your email app.'}});
 }
+
+const carousel=$('[data-carousel]');
+if(carousel){
+ const slides=$$('template[data-hero-slide]',carousel);let index=0,paused=motion.matches,timer;
+ const pause=$('[data-carousel-pause]',carousel);
+ const show=n=>{index=(n+slides.length)%slides.length;const s=slides[index].content;$('#hero-title').innerHTML=$('.slide-title',s).innerHTML;$('#hero-copy').textContent=$('.slide-copy',s).textContent;$('#hero-label').textContent=$('.slide-label',s).textContent;const img=$('.slide-image',s);$('#hero-image').src=img.src;$('#hero-image').alt=img.alt;const link=$('.slide-link',s);$('#hero-link').href=link.href;$('#hero-link').innerHTML=link.innerHTML;$('#carousel-status').textContent=`0${index+1} / 0${slides.length}`;$$('[data-carousel-index]',carousel).forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.carouselIndex)===index)))};
+ const schedule=()=>{clearInterval(timer);pause.textContent=paused?'Play':'Pause';pause.setAttribute('aria-label',paused?'Play carousel':'Pause carousel');if(!paused&&!document.hidden&&!carousel.matches(':hover')&&!carousel.contains(document.activeElement))timer=setInterval(()=>show(index+1),6000)};
+ $('.carousel-controls',carousel).hidden=false;
+ $('[data-carousel-prev]',carousel).addEventListener('click',()=>show(index-1));$('[data-carousel-next]',carousel).addEventListener('click',()=>show(index+1));$$('[data-carousel-index]',carousel).forEach(b=>b.addEventListener('click',()=>show(Number(b.dataset.carouselIndex))));pause.addEventListener('click',()=>{paused=!paused;schedule()});carousel.addEventListener('mouseenter',schedule);carousel.addEventListener('mouseleave',schedule);carousel.addEventListener('focusin',schedule);carousel.addEventListener('focusout',()=>setTimeout(schedule,0));document.addEventListener('visibilitychange',schedule);motion.addEventListener('change',()=>{paused=motion.matches;schedule()});schedule();
+}

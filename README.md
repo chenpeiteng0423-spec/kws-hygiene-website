@@ -88,3 +88,7 @@ HTTPS_PROXY=http://127.0.0.1:7897 HTTP_PROXY=http://127.0.0.1:7897 ./scripts/pub
 ```
 
 This command verifies the site, prepares root-hosted URLs and uploads only `_cloudflare_site/` to this project's existing Cloudflare Pages deployment. It retains security headers and the original URL's HTTP 301 mappings. Authentication stays in the local Wrangler credential store; no hosting credentials are included in the repository. The original scentairmachines.com domain is unchanged.
+
+### October 6 interface update
+
+390 main pages now include eight new editorial guides in addition to the original team story. Homepage carousel and viewport-aware muted previews, richer manufacturing content, alternating service illustrations and lossless workplace gallery are included. Generated concepts are labeled on the pages; real factory/team pictures retain their original identities and resolution. See `content/image-prompts.json` and `content/visual-assets.json` for visual provenance.

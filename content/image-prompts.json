@@ -1,0 +1,14 @@
+{
+  "mode": "built-in image_gen",
+  "accepted": {
+    "training": "exec-772a143d-21f7-4974-9159-dbaa13e51502.png",
+    "planning": "exec-3f589591-740a-49cb-a3a7-1a7d7c1df17a.png",
+    "quality": "exec-2bf34d7c-7b67-4fd2-9c60-a4a1ff8d0679.png"
+  },
+  "prompt_set": {
+    "training": "Technical trainer demonstrating equipment setup and maintenance; natural photography, sage and forest tones, no logos or text.",
+    "planning": "Modern boutique hotel lobby with unobtrusive diffuser; ivory stone and sage seating, natural daylight, no logos or text.",
+    "quality": "Technician inspecting fragrance and hygiene equipment at a workbench; meter, checklist, natural daylight, no branding or certificate seals."
+  },
+  "rejected_restoration": "AI restoration changed fine details of archival images. Original company photographs retained with lossless conversion and smaller rendered size."
+}

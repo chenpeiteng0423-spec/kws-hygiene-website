@@ -27,3 +27,13 @@ No email service credentials or authorized form delivery backend exist in this c
 ## Acceptance
 
 Check content records and source/asset URLs, safe markup, local links, images, model fields, certificate duplicate removal and build reproducibility. Browser: 1440 desktop and 390/320 mobile, search/filter/pagination, direct product URL, keyboard menu and gallery, inquiry draft validation, media and no page-level overflow. Show a local browser preview. No DNS or production domain changes are authorized by this build request.
+
+## 2026-10-06 interface revision
+
+Preserve the vanilla static stack and forest / ivory visual identity. Homepage uses three real catalog collections with six-second rotation, previous/next, dots and pause controls; hover, focus, background tabs and reduced motion suspend rotation. Three homepage HLS previews load on entering the viewport, play muted and inline, and pause on leaving; full resource pages retain manual playback.
+
+About service content uses alternating text and generated concept illustrations. Actual team photographs remain unchanged, converted losslessly from archived originals; three-column desktop presentation avoids excessive enlargement and provides original-detail zoom. The original photographs are approximately 680 pixels wide and do not become high-resolution originals through this change.
+
+Manufacturing adds six production discussion stages, original factory photography, OEM / ODM briefing and model-specific quality documentation guidance. News uses nine responsive cards: the original company archive story plus eight clearly labeled editorial guides. New articles make no invented claims about company events, certification, customers or measured results.
+
+Generated visual provenance and accepted prompts are recorded in content/visual-assets.json and content/image-prompts.json. Only three concept illustrations are accepted; experimental portrait/document restoration is excluded because it changed fine details. Image generation used the built-in image tool.

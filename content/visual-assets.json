@@ -1,0 +1,56 @@
+{
+  "training": {
+    "src": "/assets/editorial/training.webp",
+    "width": 1536,
+    "height": 1024,
+    "provenance": "AI-generated conceptual illustration; not a company facility or product record"
+  },
+  "planning": {
+    "src": "/assets/editorial/planning.webp",
+    "width": 1536,
+    "height": 1024,
+    "provenance": "AI-generated conceptual illustration; not a company facility or product record"
+  },
+  "quality": {
+    "src": "/assets/editorial/quality.webp",
+    "width": 1536,
+    "height": 1024,
+    "provenance": "AI-generated conceptual illustration; not a company facility or product record"
+  },
+  "workplace-1": {
+    "src": "/assets/editorial/workplace-01.webp",
+    "width": 680,
+    "height": 453,
+    "provenance": "Original KWS archival photograph, lossless conversion; no invented details"
+  },
+  "workplace-2": {
+    "src": "/assets/editorial/workplace-02.webp",
+    "width": 680,
+    "height": 453,
+    "provenance": "Original KWS archival photograph, lossless conversion; no invented details"
+  },
+  "workplace-3": {
+    "src": "/assets/editorial/workplace-03.webp",
+    "width": 680,
+    "height": 453,
+    "provenance": "Original KWS archival photograph, lossless conversion; no invented details"
+  },
+  "workplace-4": {
+    "src": "/assets/editorial/workplace-04.webp",
+    "width": 680,
+    "height": 453,
+    "provenance": "Original KWS archival photograph, lossless conversion; no invented details"
+  },
+  "workplace-5": {
+    "src": "/assets/editorial/workplace-05.webp",
+    "width": 680,
+    "height": 453,
+    "provenance": "Original KWS archival photograph, lossless conversion; no invented details"
+  },
+  "workplace-6": {
+    "src": "/assets/editorial/workplace-06.webp",
+    "width": 680,
+    "height": 510,
+    "provenance": "Original KWS archival photograph, lossless conversion; no invented details"
+  }
+}
