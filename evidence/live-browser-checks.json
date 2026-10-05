@@ -1,0 +1,66 @@
+[
+  {
+    "url": "https://kws-hygiene-preview.pages.dev/",
+    "expectedWidth": 390,
+    "viewport": 390,
+    "scroll": 390,
+    "overflow": false,
+    "broken": []
+  },
+  {
+    "url": "https://kws-hygiene-preview.pages.dev/products/",
+    "expectedWidth": 390,
+    "viewport": 390,
+    "scroll": 390,
+    "overflow": false,
+    "broken": []
+  },
+  {
+    "url": "https://kws-hygiene-preview.pages.dev/products/p-31772096/",
+    "expectedWidth": 390,
+    "viewport": 390,
+    "scroll": 390,
+    "overflow": false,
+    "broken": []
+  },
+  {
+    "url": "https://kws-hygiene-preview.pages.dev/contact/",
+    "expectedWidth": 390,
+    "viewport": 390,
+    "scroll": 390,
+    "overflow": false,
+    "broken": []
+  },
+  {
+    "url": "https://kws-hygiene-preview.pages.dev/",
+    "expectedWidth": 320,
+    "viewport": 320,
+    "scroll": 320,
+    "overflow": false,
+    "broken": []
+  },
+  {
+    "url": "https://kws-hygiene-preview.pages.dev/products/",
+    "expectedWidth": 320,
+    "viewport": 320,
+    "scroll": 320,
+    "overflow": false,
+    "broken": []
+  },
+  {
+    "url": "https://kws-hygiene-preview.pages.dev/products/p-31772096/",
+    "expectedWidth": 320,
+    "viewport": 320,
+    "scroll": 320,
+    "overflow": false,
+    "broken": []
+  },
+  {
+    "url": "https://kws-hygiene-preview.pages.dev/contact/",
+    "expectedWidth": 320,
+    "viewport": 320,
+    "scroll": 320,
+    "overflow": false,
+    "broken": []
+  }
+]

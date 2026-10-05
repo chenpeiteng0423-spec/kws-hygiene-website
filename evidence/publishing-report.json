@@ -1,0 +1,31 @@
+{
+  "verified_at_utc": "2026-10-05T19:55:57.503402+00:00",
+  "customer_url": "https://kws-hygiene-preview.pages.dev/",
+  "repository": "https://github.com/chenpeiteng0423-spec/kws-hygiene-website",
+  "source_commit": "2e33af6593ffa13ee63af5e84d6f6338d161bda9",
+  "deployment_url": "https://7d04f980.kws-hygiene-preview.pages.dev",
+  "http_home": 200,
+  "legacy_products_redirect": 301,
+  "mobile_checks": "live-browser-checks.json",
+  "video_playback": {
+    "route": "/resources/v-106699/",
+    "current_time_seconds": 1.098935,
+    "duration_seconds": 31,
+    "width": 1280,
+    "height": 720,
+    "error": null
+  },
+  "product_pages": 321,
+  "video_pages": 31,
+  "gallery_overflow_fix_verified_widths": [
+    320,
+    390
+  ],
+  "source_css_sha256": "76f5f8af17c2133a9c2ba42323a00195acc5dab023748f54be7778c823598079",
+  "published_css_sha256": "76f5f8af17c2133a9c2ba42323a00195acc5dab023748f54be7778c823598079",
+  "github_pages_latest_run": {
+    "id": 37366391633,
+    "status": "queued_at_verification"
+  },
+  "inquiry": "Browser-generated email and WhatsApp drafts; no automatic submission"
+}
