@@ -74,3 +74,17 @@ python3 scripts/prepare_pages.py --url https://chenpeiteng0423-spec.github.io/kw
 Customer previews keep `noindex,nofollow` and do not change the original domain. On GitHub, enable Settings → Pages → Source → GitHub Actions, then push `main` or run “Publish customer preview”. The workflow publishes the checked static snapshot; content changes must first be rebuilt locally with `scripts/build.py`. Legacy extensionless redirects are served as HTML directory pages on Pages; GitHub Pages does not apply `_headers` or HTTP 301 `_redirects` rules.
 
 The repository excludes duplicate original image/video archives in `research/media/` and `research/video/`; all public website images and video segments remain in `website/assets/`. Original HTML and structured content are retained for future edits. Repository upload and a live customer URL are not considered completed until the remote repository and deployment have been verified.
+
+## Customer preview hosting
+
+- GitHub repository: https://github.com/chenpeiteng0423-spec/kws-hygiene-website
+- Primary customer URL: https://kws-hygiene-preview.pages.dev/
+- Cloudflare project: `kws-hygiene-preview`, production branch `main`, direct static upload.
+- GitHub Pages remains a separately configured automatic preview. Cloudflare does not automatically follow GitHub pushes; use the command below after rebuilding and committing website changes.
+
+```sh
+# Use the computer's existing network proxy if the network requires it.
+HTTPS_PROXY=http://127.0.0.1:7897 HTTP_PROXY=http://127.0.0.1:7897 ./scripts/publish_preview.sh
+```
+
+This command verifies the site, prepares root-hosted URLs and uploads only `_cloudflare_site/` to this project's existing Cloudflare Pages deployment. It retains security headers and the original URL's HTTP 301 mappings. Authentication stays in the local Wrangler credential store; no hosting credentials are included in the repository. The original scentairmachines.com domain is unchanged.
