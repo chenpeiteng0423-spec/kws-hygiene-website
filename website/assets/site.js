@@ -81,3 +81,15 @@ if(showroom){
  schedule.addEventListener('change',briefing);play.hidden=false;play.addEventListener('click',()=>{running=!running;renderMotion()});document.addEventListener('visibilitychange',renderMotion);motion.addEventListener('change',()=>{if(motion.matches)running=false;renderMotion()});if('IntersectionObserver' in window)new IntersectionObserver(entries=>{inView=entries[0].isIntersecting;renderMotion()},{threshold:.12}).observe(showroom);briefing();renderMotion();
 }
 const briefingParam=new URLSearchParams(location.search).get('brief');if(form&&briefingParam)$('#inquiry-message').value=briefingParam.slice(0,2000);
+
+// Floating customer-service entry using the verified company contacts.
+const support=document.createElement('aside');
+support.className='customer-support';support.setAttribute('aria-label','KWS customer service');
+support.innerHTML=`<section class="support-panel" id="support-panel" aria-label="Contact KWS" hidden><div class="support-heading"><div><span class="support-label">KWS CUSTOMER SERVICE</span><h2>How can we help?</h2></div><button type="button" data-support-close aria-label="Close customer service">×</button></div><p>Discuss products, OEM / ODM requirements and your project with our team.</p><a class="support-link support-whatsapp" href="https://wa.me/8613590491364" target="_blank" rel="noopener">WhatsApp <span aria-hidden="true">↗</span></a><a class="support-link" href="mailto:mandyxu@scentairmachines.com">Email our team <span aria-hidden="true">↗</span></a><a class="support-link" href="/contact/">Send an inquiry <span aria-hidden="true">↗</span></a><p class="support-note">Choose a channel to contact us. Replies depend on team availability.</p></section><button type="button" class="support-toggle" aria-expanded="false" aria-controls="support-panel"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M21 11a9 9 0 0 1-9 9H7l-4 2V11a9 9 0 1 1 18 0Z"/><path d="M7 10h10M7 14h6"/></svg><span>Contact KWS</span></button>`;
+document.body.append(support);
+const supportToggle=$('.support-toggle',support),supportPanel=$('.support-panel',support);
+function closeSupport(restore=false){supportPanel.hidden=true;supportToggle.setAttribute('aria-expanded','false');if(restore)supportToggle.focus()}
+supportToggle.addEventListener('click',()=>{const open=supportPanel.hidden;supportPanel.hidden=!open;supportToggle.setAttribute('aria-expanded',String(open));if(open)$('[data-support-close]',support).focus()});
+$('[data-support-close]',support).addEventListener('click',()=>closeSupport(true));
+document.addEventListener('keydown',event=>{if(event.key==='Escape'&&!supportPanel.hidden)closeSupport(true)});
+document.addEventListener('click',event=>{if(!support.contains(event.target)&&!supportPanel.hidden)closeSupport()});
