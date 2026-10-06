@@ -1,0 +1,33 @@
+{
+  "verified_at_utc": "2026-10-06T06:15:13.273608+00:00",
+  "source_commit": "233e5b7",
+  "customer_url": "https://kws-hygiene-preview.pages.dev/",
+  "immutable_deployment": "https://75d2a21f.kws-hygiene-preview.pages.dev",
+  "logo_dimensions": [
+    1346,
+    1169
+  ],
+  "alpha_range": [
+    0,
+    255
+  ],
+  "footer_css_dimensions": [
+    110,
+    96
+  ],
+  "previous_footer_css_dimensions": [
+    48,
+    48
+  ],
+  "footer_treatment": "High-contrast monochrome; header keeps green",
+  "verification": [
+    "390 main pages, no static link failures",
+    "784 prepared HTML documents, no broken local targets",
+    "Desktop footer visual review",
+    "320px mobile no overflow",
+    "Live image loaded from transparent derivative at 110 CSS pixels"
+  ],
+  "previous_commit": "c87ffd5",
+  "previous_deployment": "https://440ae356.kws-hygiene-preview.pages.dev",
+  "tool_mode": "Built-in image_gen"
+}
