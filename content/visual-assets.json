@@ -77,5 +77,26 @@
     "width": 1346,
     "height": 1169,
     "provenance": "Transparent-background logo derivative from supplied original; original archived asset retained"
+  },
+  "machining-restored": {
+    "src": "/assets/editorial/machining-restored-v1.webp",
+    "width": 1536,
+    "height": 1024,
+    "provenance": "AI-restored from 680px archival KWS photograph; fine details inferred; original retained",
+    "original_src": "/assets/media/c39c113bf5fb7132f024.webp"
+  },
+  "molding-restored": {
+    "src": "/assets/editorial/molding-restored-v1.webp",
+    "width": 1536,
+    "height": 1024,
+    "provenance": "AI-restored from 680px archival KWS photograph; fine details inferred; original retained",
+    "original_src": "/assets/media/1631c47b465022cb0211.webp"
+  },
+  "storage-restored": {
+    "src": "/assets/editorial/storage-restored-v1.webp",
+    "width": 1536,
+    "height": 1024,
+    "provenance": "AI-restored from 680px archival KWS photograph; fine details inferred; original retained",
+    "original_src": "/assets/media/4de39fda638167c912ee.webp"
   }
 }

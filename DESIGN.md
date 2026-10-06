@@ -59,3 +59,7 @@ Use the locally saved transparent-background high-resolution logo derivative in 
 ### Third carousel product replacement
 
 Replace the 72ml refill bottle in the third homepage slide with the existing real 200ml glass-bottle reed diffuser, catalog ID 13528310. Keep the original product photograph, frame it more prominently with CSS, and change the copy and link to the matching reed diffuser. The previous refill remains in the catalog and scenario guides. No generated product image or new specifications introduced.
+
+### Manufacturing archival restoration
+
+Four production photographs use clearly labeled AI-restored derivatives with original comparison links. Reuse the approved assembly restoration; add machining, molding and storage derivatives. Reserve full 3:2 image proportions on desktop/mobile. Fine details are inferred and are not source records of equipment labels. Keep unrelated in-progress metadata changes separate from this release.

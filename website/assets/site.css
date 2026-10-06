@@ -36,3 +36,5 @@
 .footer .brand img{width:110px;height:96px;filter:grayscale(1) invert(1) brightness(1.25)}
 /* Third hero slide: frame the real reed-diffuser photograph more prominently. */
 .cinematic-hero[data-slide="2"] .hero-art img{object-fit:cover;object-position:50% 54%;clip-path:circle(49% at 50% 50%)}
+
+.restored-factory-photo img{width:100%;height:auto;aspect-ratio:3/2;object-fit:contain;filter:none}.factory-restoration-note{display:block;font-size:12px;margin-top:5px;color:var(--muted)}.factory-restoration-note a{display:inline-flex;gap:8px;align-items:center;min-height:44px;text-decoration:underline;text-underline-offset:4px}.restored-factory-photo figcaption{font-size:14px;margin-top:12px;color:var(--muted)}

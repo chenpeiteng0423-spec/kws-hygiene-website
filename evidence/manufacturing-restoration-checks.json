@@ -1,0 +1,24 @@
+{
+  "checked_at_utc": "2026-10-06T09:31:29.911981+00:00",
+  "scope": "Manufacturing photo restoration",
+  "source_width": 680,
+  "restored_width": 1536,
+  "photos": [
+    "Assembly",
+    "Machining",
+    "Injection molding",
+    "Storage"
+  ],
+  "mode": "Built-in image_gen; reuse accepted assembly restoration, three new archival derivatives",
+  "disclosure": "AI-restored archival photograph with original comparison links; fine detail inferred",
+  "checks": [
+    "390 main pages: zero static failures",
+    "784 prepared HTML documents: zero broken local targets",
+    "Four restored images load at 1536 pixels",
+    "Desktop full 3:2 proportions",
+    "320px mobile no overflow and four original links"
+  ],
+  "release_isolation": "Based on committed HEAD; preserve and exclude unrelated working-tree metadata edits",
+  "previous_commit": "d848de27016e39a6506aa7c7082e3b0a52fa22ac",
+  "previous_deployment": "https://409d7d63.kws-hygiene-preview.pages.dev"
+}
