@@ -1,0 +1,18 @@
+{
+  "verified_at_utc": "2026-10-06T06:43:42.348332+00:00",
+  "source_commit": "541f852",
+  "customer_url": "https://kws-hygiene-preview.pages.dev/",
+  "deployment_url": "https://409d7d63.kws-hygiene-preview.pages.dev",
+  "previous_deployment": "https://75d2a21f.kws-hygiene-preview.pages.dev",
+  "slide": 3,
+  "old_product": "13490105",
+  "new_product": "13528310",
+  "image_source": "Existing real product photo; no generated product image",
+  "checks": [
+    "390 main pages: zero static failures",
+    "784 prepared HTML documents: zero broken local targets",
+    "Desktop and 390/320 mobile reflow",
+    "Actual product link navigation",
+    "Live third slide loads correct image and product link at 320px"
+  ]
+}
