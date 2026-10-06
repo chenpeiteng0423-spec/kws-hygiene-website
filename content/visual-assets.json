@@ -71,5 +71,11 @@
     "height": 1024,
     "provenance": "AI-restored from original 680px archival workshop photograph; fine detail inferred, original retained",
     "original_src": "/assets/media/a982014155b23d9f1abe.webp"
+  },
+  "brand-transparent": {
+    "src": "/assets/editorial/kws-logo-transparent-v1.webp",
+    "width": 1346,
+    "height": 1169,
+    "provenance": "Transparent-background logo derivative from supplied original; original archived asset retained"
   }
 }

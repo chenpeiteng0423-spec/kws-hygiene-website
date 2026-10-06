@@ -22,7 +22,7 @@ def image(m,alt,thumb=False,cls='',eager=False):
     src=m.get('thumb') if thumb else m.get('src');src=src or m['src']
     return f'<img src="{E(src)}" alt="{E(alt)}" width="{m.get("width",800)}" height="{m.get("height",800)}" class="{E(cls)}" {"fetchpriority=high" if eager else "loading=lazy"} decoding="async">'
 def asset(v):return media.get(urljoin(SOURCE+'/',v))
-logo=asset('/logo.gif')
+logo=visuals['brand-transparent']
 def brand():return f'<a class="brand" href="/" aria-label="KWS Hygiene home">{image(logo,"",eager=True)}<span class="brand-type"><strong>KWS</strong><span>HYGIENE & FRAGRANCE</span></span></a>'
 navitems=[('Products','/products/','products'),('Applications','/applications/','applications'),('Manufacturing','/manufacturing/','manufacturing'),('About KWS','/about/','about'),('Resources','/resources/','resources')]
 def header(active):

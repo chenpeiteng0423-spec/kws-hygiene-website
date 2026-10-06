@@ -51,3 +51,7 @@ Acceptance: real product links per point, scene selection and keyboard operation
 ### Homepage workshop photo restoration
 
 The homepage workshop visual now uses an AI-restored derivative of the original 680px company photograph. Fine details are inferred; it is explicitly labeled as restored with a link to the unmodified source. Display the whole 3:2 photograph without cover cropping. About and Manufacturing retain the original archival photograph. The accepted derivative and prompt are recorded in visual-assets.json and image-prompts.json.
+
+### Transparent logo and footer signature
+
+Use the locally saved transparent-background high-resolution logo derivative in the shared header/footer and favicon. Retain the archived original logo. The exterior background has zero alpha; interior white lettering remains opaque. Footer mark is 110 × 96 CSS pixels (previously 48 × 48), rendered in a high-contrast monochrome treatment on forest. Header preserves the green treatment. Browser checks cover desktop and 320px mobile footer layout. Generated asset and prompt provenance are recorded in content JSON.
