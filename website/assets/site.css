@@ -75,3 +75,12 @@ body:has(.cinematic-hero) .collection{min-height:360px;padding:32px}
 @media(max-width:768px){.scene-panel{grid-template-columns:1fr}.scene-details{display:block}.point-details{border-left:0;border-top:1px solid #b9c3b0;padding:20px 0 0}.scene-title{font-size:32px}.point-details .scene-product{height:190px}.scene-tabs button{font-size:14px;padding-inline:12px}}
 @media(max-width:600px){body:has(.cinematic-hero){--home-heading:36px}body:has(.cinematic-hero) .section-head{margin-bottom:28px}body:has(.cinematic-hero) .cinematic-hero h1{font-size:clamp(46px,12vw,62px)}.scene-tabs{gap:4px;padding:4px}.scene-tabs button{font-size:12px;min-height:66px;padding:10px 7px}.scene-details{padding:22px}.scene-image-note{font-size:9px}.scene-title{font-size:30px}.scene-settings .btn{font-size:11px}.scene-panel{gap:20px}}
 @media(prefers-reduced-motion:reduce){.scene-panel,.point-details,.is-demonstrating .scene-product,.is-demonstrating .scene-point:after{animation:none!important}}
+/* Consistent transparent KWS mark on product display areas */
+.product-image,.gallery-main,.gallery-thumbs button,.hero-art,.collection,.product-brand-frame{position:relative}
+.product-image:after,.gallery-main:after,.gallery-thumbs button:after,.hero-art:after,.collection:after,.product-brand-frame:after{content:'';position:absolute;top:14px;left:14px;width:clamp(36px,16%,64px);aspect-ratio:1346/1169;background:url('/assets/editorial/kws-logo-transparent-v1.webp') center/contain no-repeat;z-index:3;pointer-events:none;filter:drop-shadow(0 1px 2px #fff9)}
+.gallery-main:after{width:clamp(48px,14%,80px);top:20px;left:20px}.gallery-thumbs button:after{width:20px;top:3px;left:3px}
+.hero-art:after{top:12%;left:12%;width:64px;background-color:#f6f4edcc;border-radius:4px;padding:3px}
+.collection:after{left:calc(50% + 12px);top:25px;width:48px}
+.product-brand-frame{display:block;margin-block:18px;border-radius:8px;overflow:hidden}.point-details .product-brand-frame .scene-product{margin:0}.product-brand-frame:after{width:48px;top:12px;left:12px}
+#image-zoom.product-zoom:after{content:'';position:absolute;top:62px;left:20px;width:72px;aspect-ratio:1346/1169;background:url('/assets/editorial/kws-logo-transparent-v1.webp') center/contain no-repeat;pointer-events:none}
+@media(max-width:600px){.product-image:after{width:42px;top:10px;left:10px}.hero-art:after{width:38px;top:8%;left:14%}.collection:after{width:36px;top:18px}.gallery-main:after{width:52px;top:14px;left:14px}#image-zoom.product-zoom:after{width:48px}}
