@@ -20,5 +20,12 @@
   ],
   "release_isolation": "Based on committed HEAD; preserve and exclude unrelated working-tree metadata edits",
   "previous_commit": "d848de27016e39a6506aa7c7082e3b0a52fa22ac",
-  "previous_deployment": "https://409d7d63.kws-hygiene-preview.pages.dev"
+  "previous_deployment": "https://409d7d63.kws-hygiene-preview.pages.dev",
+  "release": {
+    "source_commit": "ec1ae6d",
+    "customer_url": "https://kws-hygiene-preview.pages.dev/manufacturing/",
+    "immutable_url": "https://72e8bd99.kws-hygiene-preview.pages.dev",
+    "verified_at_utc": "2026-10-06T09:34:54.270965+00:00",
+    "live_check": "Four correct restored image paths load at 1536px; four original links; 1440px document no overflow"
+  }
 }
