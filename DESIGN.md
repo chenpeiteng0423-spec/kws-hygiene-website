@@ -47,3 +47,7 @@ Content plan: cinematic three-slide collection hero; two product-family composit
 Interaction thesis: restrained hero image transitions; photographic scene switches with selectable equipment points; a pausable illustrative operation pulse. Three scene modes use clearly labeled concept imagery. The demonstration visualizes a discussion, not physical diffusion, coverage, concentration, efficacy or engineering sizing. Scheduling preference changes the briefing advice and is carried to the contact form, which continues to generate drafts only.
 
 Acceptance: real product links per point, scene selection and keyboard operation, pause/reduced motion, selected scene/schedule reflected in contact drafts, no failed visible images, no horizontal overflow at 1440/768/390/320, and previously delivered carousel/video features preserved. Implement with existing Python generator and plain CSS/JS; no CMS or React migration.
+
+### Homepage workshop photo restoration
+
+The homepage workshop visual now uses an AI-restored derivative of the original 680px company photograph. Fine details are inferred; it is explicitly labeled as restored with a link to the unmodified source. Display the whole 3:2 photograph without cover cropping. About and Manufacturing retain the original archival photograph. The accepted derivative and prompt are recorded in visual-assets.json and image-prompts.json.

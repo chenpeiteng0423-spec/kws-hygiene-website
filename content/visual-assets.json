@@ -64,5 +64,12 @@
     "width": 1536,
     "height": 1024,
     "provenance": "AI-generated spatial concept; not a real customer installation or exact product rendering"
+  },
+  "workshop-restored": {
+    "src": "/assets/editorial/workshop-restored-v1.webp",
+    "width": 1536,
+    "height": 1024,
+    "provenance": "AI-restored from original 680px archival workshop photograph; fine detail inferred, original retained",
+    "original_src": "/assets/media/a982014155b23d9f1abe.webp"
   }
 }
