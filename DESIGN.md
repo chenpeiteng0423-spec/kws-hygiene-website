@@ -55,3 +55,7 @@ The homepage workshop visual now uses an AI-restored derivative of the original 
 ### Transparent logo and footer signature
 
 Use the locally saved transparent-background high-resolution logo derivative in the shared header/footer and favicon. Retain the archived original logo. The exterior background has zero alpha; interior white lettering remains opaque. Footer mark is 110 × 96 CSS pixels (previously 48 × 48), rendered in a high-contrast monochrome treatment on forest. Header preserves the green treatment. Browser checks cover desktop and 320px mobile footer layout. Generated asset and prompt provenance are recorded in content JSON.
+
+### Third carousel product replacement
+
+Replace the 72ml refill bottle in the third homepage slide with the existing real 200ml glass-bottle reed diffuser, catalog ID 13528310. Keep the original product photograph, frame it more prominently with CSS, and change the copy and link to the matching reed diffuser. The previous refill remains in the catalog and scenario guides. No generated product image or new specifications introduced.
