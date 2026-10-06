@@ -1,0 +1,19 @@
+{
+  "verified_at_utc": "2026-10-06T05:52:26.716416+00:00",
+  "source_commit": "67f4d32",
+  "customer_url": "https://kws-hygiene-preview.pages.dev/",
+  "deployment_url": "https://440ae356.kws-hygiene-preview.pages.dev",
+  "changed_surface": "Homepage workshop photo only",
+  "source_width": 680,
+  "derivative_width": 1536,
+  "image_mode": "Built-in image_gen conservative restoration",
+  "disclosure": "AI-restored archival photograph with original link; fine detail inferred",
+  "checks": [
+    "390 main pages and 784 prepared HTML documents: no broken local targets",
+    "1440 desktop whole image at 3:2 without crop",
+    "390 mobile no horizontal overflow",
+    "Live restored image loaded at 1536px; source comparison link visible"
+  ],
+  "previous_release": "529580b",
+  "previous_deployment_url": "https://273d6652.kws-hygiene-preview.pages.dev"
+}
