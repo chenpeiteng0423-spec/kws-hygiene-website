@@ -1,0 +1,192 @@
+{
+  "/assets/editorial/planning.webp": [
+    {
+      "page": "index.html",
+      "alt": ""
+    },
+    {
+      "page": "index.html",
+      "alt": ""
+    },
+    {
+      "page": "index.html",
+      "alt": "Hotel lobby concept illustration"
+    },
+    {
+      "page": "about/index.html",
+      "alt": "Fragrance project planning conceptual illustration"
+    },
+    {
+      "page": "about/index.html",
+      "alt": "Fragrance & odor-control inquiries conceptual illustration"
+    },
+    {
+      "page": "news/index.html",
+      "alt": "Choosing a scent diffuser for hospitality spaces"
+    },
+    {
+      "page": "news/index.html",
+      "alt": "Standalone or HVAC scent diffusion?"
+    },
+    {
+      "page": "news/index.html",
+      "alt": "Before a scent project: a simple site survey"
+    },
+    {
+      "page": "applications/index.html",
+      "alt": "Hotel lobby concept illustration"
+    },
+    {
+      "page": "news/choosing-hotel-scent-diffusers/index.html",
+      "alt": "Choosing a scent diffuser for hospitality spaces"
+    },
+    {
+      "page": "news/standalone-or-hvac-scent-diffusion/index.html",
+      "alt": "Standalone or HVAC scent diffusion?"
+    },
+    {
+      "page": "news/scent-project-site-survey/index.html",
+      "alt": "Before a scent project: a simple site survey"
+    }
+  ],
+  "/assets/editorial/washroom-scene.webp": [
+    {
+      "page": "index.html",
+      "alt": ""
+    },
+    {
+      "page": "index.html",
+      "alt": "Shared washroom concept illustration"
+    },
+    {
+      "page": "applications/index.html",
+      "alt": "Shared washroom concept illustration"
+    }
+  ],
+  "/assets/editorial/office-scene.webp": [
+    {
+      "page": "index.html",
+      "alt": ""
+    },
+    {
+      "page": "index.html",
+      "alt": "Workplace concept illustration"
+    },
+    {
+      "page": "applications/index.html",
+      "alt": "Workplace concept illustration"
+    }
+  ],
+  "/assets/editorial/workshop-restored-v1.webp": [
+    {
+      "page": "index.html",
+      "alt": "AI-restored archival photograph of the KWS assembly workshop"
+    },
+    {
+      "page": "quality/index.html",
+      "alt": "KWS assembly workshop"
+    },
+    {
+      "page": "manufacturing/index.html",
+      "alt": "AI-restored archival photograph: KWS assembly workshop"
+    },
+    {
+      "page": "manufacturing/index.html",
+      "alt": "AI-restored archival photograph: Assembly and product preparation"
+    }
+  ],
+  "/assets/editorial/training.webp": [
+    {
+      "page": "about/index.html",
+      "alt": "Technical training conceptual illustration"
+    },
+    {
+      "page": "about/index.html",
+      "alt": "A considered service process conceptual illustration"
+    },
+    {
+      "page": "manufacturing/index.html",
+      "alt": "Conceptual illustration of a technical product review"
+    }
+  ],
+  "/assets/editorial/quality.webp": [
+    {
+      "page": "about/index.html",
+      "alt": "Inspection & after-sales support conceptual illustration"
+    },
+    {
+      "page": "manufacturing/index.html",
+      "alt": "Conceptual illustration of an equipment inspection"
+    },
+    {
+      "page": "news/index.html",
+      "alt": "What to include in an OEM / ODM project brief"
+    },
+    {
+      "page": "news/index.html",
+      "alt": "Building a simple equipment care routine"
+    },
+    {
+      "page": "news/oem-odm-project-brief/index.html",
+      "alt": "What to include in an OEM / ODM project brief"
+    },
+    {
+      "page": "news/equipment-care-and-support/index.html",
+      "alt": "Building a simple equipment care routine"
+    }
+  ],
+  "/assets/editorial/workplace-01.webp": [
+    {
+      "page": "about/index.html",
+      "alt": "Office & product display"
+    }
+  ],
+  "/assets/editorial/workplace-02.webp": [
+    {
+      "page": "about/index.html",
+      "alt": "Team collaboration"
+    }
+  ],
+  "/assets/editorial/workplace-03.webp": [
+    {
+      "page": "about/index.html",
+      "alt": "Reception & showroom"
+    }
+  ],
+  "/assets/editorial/workplace-04.webp": [
+    {
+      "page": "about/index.html",
+      "alt": "Machining workspace"
+    }
+  ],
+  "/assets/editorial/workplace-05.webp": [
+    {
+      "page": "about/index.html",
+      "alt": "Production equipment"
+    }
+  ],
+  "/assets/editorial/workplace-06.webp": [
+    {
+      "page": "about/index.html",
+      "alt": "Workshop environment"
+    }
+  ],
+  "/assets/editorial/machining-restored-v1.webp": [
+    {
+      "page": "manufacturing/index.html",
+      "alt": "AI-restored archival photograph: Machining workshop"
+    }
+  ],
+  "/assets/editorial/molding-restored-v1.webp": [
+    {
+      "page": "manufacturing/index.html",
+      "alt": "AI-restored archival photograph: Injection molding equipment"
+    }
+  ],
+  "/assets/editorial/storage-restored-v1.webp": [
+    {
+      "page": "manufacturing/index.html",
+      "alt": "AI-restored archival photograph: Product storage and production area"
+    }
+  ]
+}

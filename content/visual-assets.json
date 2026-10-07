@@ -98,5 +98,17 @@
     "height": 1024,
     "provenance": "AI-restored from 680px archival KWS photograph; fine details inferred; original retained",
     "original_src": "/assets/media/4de39fda638167c912ee.webp"
+  },
+  "service-process": {
+    "src": "/assets/editorial/service-process-v1.webp",
+    "width": 1536,
+    "height": 1024,
+    "provenance": "AI-generated service concept illustration; not an actual company or customer record"
+  },
+  "fragrance-selection": {
+    "src": "/assets/editorial/fragrance-selection-v1.webp",
+    "width": 1536,
+    "height": 1024,
+    "provenance": "AI-generated service concept illustration; not an actual company or customer record"
   }
 }
